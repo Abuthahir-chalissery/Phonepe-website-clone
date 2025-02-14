@@ -1646,7 +1646,7 @@
 .section-9-container{
     margin-top: 20px;
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color: rgb(255, 255, 255);
 }
 
@@ -1761,3 +1761,106 @@
 }
 
 
+
+
+
+@media(min-width:600px){
+    .black-arrow{
+        display: none;
+    }
+}
+
+
+
+@media(max-width:600px){
+
+    .section-9-container{
+        width: 100%;
+        height: auto;
+        background-color: chocolate;
+        margin-top: 114%;
+
+        .section-9-container-div-1-inner{
+            padding: 0 20px 0 229px;
+            position: relative;
+        
+        
+            #pp-logo-footer{
+                position: absolute;
+                top: 27px;
+                left: 5px;
+        
+                img{
+                    width: 145px;
+                    height: auto;
+                }
+            }
+        
+            .ltfy-logos{
+                position: absolute;
+                bottom: -742px;
+                right: 86px;
+        
+                
+                img{
+                    width: 45px;
+                    padding-left: 20px;
+                    
+                    
+                }
+            }
+        
+            .copywrite{
+                bottom: -808px;
+                font-size: 17px;
+                position: absolute;
+                left: 66px;
+            }
+
+
+            .sample{
+
+                display: flex;
+                flex-direction: column;
+                ul{
+                    display: none;
+                }
+    
+                h4{
+                    color: rgb(0, 0, 0);
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 3;
+
+                    .black-arrow{
+                        position: absolute;
+                        width: 12px;
+                        margin-top: 18px;
+                        right: -80px;
+                    }
+                }
+    
+    
+        
+            }
+
+
+            .footer-section-2{
+                width: 100%;
+                height: auto;
+                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, 180px);
+                gap: 5px;
+                padding: 50px 150px ;
+                position: absolute;
+                left: -75px;
+                top: 60px;
+                font-size: 30px;
+            
+            } 
+        }
+        
+    }
+    
+}
