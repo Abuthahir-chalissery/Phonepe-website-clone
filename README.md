@@ -4,7 +4,7 @@
 This is a **fully responsive** **PhonePe Clone**, crafted using **HTML, CSS, and Bootstrap**. The goal of this project was to refine my skills in designing modern financial application UIs while ensuring seamless responsiveness across all devices. This project helped me grasp UI/UX patterns, proper spacing, and component-based design.
 
 ## 🎨 Visual Preview
-![Phonepe](Images/Phonepe-readme.png)
+![Phonepe](images/phonepe-read.png)
 
 
 ## 🚀 Features
